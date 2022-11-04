@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:not(i) {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(24, 45, 58);
+}
+
+.container {
+  background-color: #ffffff;
+  width: 90vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 80px 50px;
+  background-repeat: 10px;
+  box-sizing: 0 20px 40px rgb(108, 211, 39);
+  border-radius: 15px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+}
+
+.search-box input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 70%;
+  font-size: medium;
+  border: none;
+  border-bottom: 3px solid rgb(55, 193, 228);
+}
+
+.search-box button {
+  padding: 10px 0;
+  width: 25%;
+  border-color: rgb(84, 228, 228);
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  outline: none;
+  color: #070707;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.result {
+  position: relative;
+}
+.result h3 {
+  font-size: 30px;
+  color: rgb(56, 147, 221);
+}
+
+.result button {
+  border-color: transparent;
+  color: rgb(59, 168, 163);
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.result .details {
+  display: flex;
+  gap: 10px;
+  color: rgb(59, 168, 163);
+  margin: 5px 0 20px 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;;
+}
+
+.word-meaning {
+  color: rgb(14, 58, 78);
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+
+.word-example {
+  font-style: italic;
+  color: rgb(14, 58, 7);
+  border-left: 5px solid rgb(10, 160, 247);
+  padding-left: 20px;
+  margin-top: 30px;
+}
